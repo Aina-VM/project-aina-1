@@ -2,12 +2,71 @@
   font-family: 'Digi';
   src: url('fonts/ds-digib.ttf');
 }
+/* fonts: 
+h1: roboto Bold 60 
+h2: roboto Bold 50
+h3: roboto Bold 40
+h4: roboto Bold 24
 
-body {
-  font-family: Arial;
-  font-size: 80px;
-  font-weight: bold;
-  padding: 40px 0;
+body-intro: roboto Medium 22
+body-intro 2: Roboto Regular 20
+
+headline-text: roboto Regular 17
+Headline-text 2; roboto medium 17
+caption 1 : roboto Regular 15
+caption 2: roboto Medium 13
+*/
+
+
+
+/*
+Colors:
+
+Accent: 43D2FF
+Primary/Default: 072AC8
+Primary/Hover: A2D6F9
+Primary/tapped: D1EDFF
+Neutral-dark: 292E47
+Neutral-medium: 6B708D
+Neutral-light: F2F4FC
+Neutral-lightBlue: ECF7FF
+Secondary/1: FFC6DD
+
+text: 514D67 hex
+
+*/
+html{
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
